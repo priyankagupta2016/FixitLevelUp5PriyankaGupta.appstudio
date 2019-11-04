@@ -2,14 +2,87 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "#F4D5D5", 
   "backgroundimage": "", 
-  "borderColor": "", 
+  "borderColor": "#4F1E1E", 
   "borderStyle": "", 
   "borderWidth": "", 
   "cached_js": null, 
   "cached_js_script_hash": null, 
-  "children": [], 
+  "children": [
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addCustomer", 
+        "Elements", 
+        "Hamburger3.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addCustomer", 
+        "Elements", 
+        "btnSubmit2.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addCustomer", 
+        "Elements", 
+        "inptName.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addCustomer", 
+        "Elements", 
+        "inptStreet.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addCustomer", 
+        "Elements", 
+        "inptState.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addCustomer", 
+        "Elements", 
+        "inptCity.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addCustomer", 
+        "Elements", 
+        "inptZip.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addCustomer", 
+        "Elements", 
+        "txtResults2.json"
+      ]
+    }
+  ], 
   "class": "", 
   "designHeight": 0, 
   "designWidth": 0, 
@@ -24,7 +97,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "addCustomer.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
